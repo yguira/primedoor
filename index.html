@@ -1,32 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cleaning Company</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prime Door | Valet Trash Service</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <header>
-    <h1>Cleaning Company</h1>
-    <p>Professional Cleaning Services</p>
+  <header class="navbar">
+    <div class="logo">
+      <img src="images/logo.png" alt="Prime Door Logo">
+    </div>
+
+    <nav id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <a href="contact.html" class="nav-btn">Get a Quote</a>
+
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
   </header>
 
-  <section>
-    <h2>Our Services</h2>
-    <p>Residential, Commercial, Deep Cleaning</p>
+  <section class="hero">
+    <div class="hero-content">
+      <p class="tagline">Apartment Valet Trash Service</p>
+      <h1>Premium Doorstep Trash Pickup for Apartment Communities</h1>
+      <p class="hero-text">
+        Prime Door helps apartment communities stay clean, convenient, and professional with reliable doorstep trash collection.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="contact.html" class="btn gold">Request a Quote</a>
+        <a href="services.html" class="btn outline">View Services</a>
+      </div>
+    </div>
+
+    <div class="hero-card">
+      <h3>Why Apartments Choose Us</h3>
+      <ul>
+        <li>✔ Doorstep trash pickup</li>
+        <li>✔ Reliable weekly service</li>
+        <li>✔ Cleaner property appearance</li>
+        <li>✔ Professional team</li>
+      </ul>
+    </div>
   </section>
 
-  <section>
-    <h2>Contact Us</h2>
-    <form>
-      <input type="text" placeholder="Name" required>
-      <input type="email" placeholder="Email" required>
-      <textarea placeholder="Message"></textarea>
-      <button type="submit">Send</button>
-    </form>
+  <section class="features">
+    <div class="feature">
+      <h3>Doorstep Pickup</h3>
+      <p>Residents place trash outside their door, and we handle the rest.</p>
+    </div>
+
+    <div class="feature">
+      <h3>Apartment Focused</h3>
+      <p>Built specifically for apartments, condos, and residential communities.</p>
+    </div>
+
+    <div class="feature">
+      <h3>Reliable Service</h3>
+      <p>Consistent pickup schedules that property managers can count on.</p>
+    </div>
   </section>
 
+  <section class="section dark">
+    <p class="tagline">Our Main Service</p>
+    <h2>Valet Trash Made Simple</h2>
+    <p>
+      Prime Door provides a convenient trash valet solution for apartment communities.
+      We help reduce overflowing dumpsters, improve resident satisfaction, and keep your property looking clean.
+    </p>
+  </section>
+
+  <section class="cta">
+    <h2>Ready to Upgrade Your Apartment Community?</h2>
+    <p>Let Prime Door handle the trash so your residents enjoy a cleaner, easier living experience.</p>
+    <a href="contact.html" class="btn gold">Get Started</a>
+  </section>
+
+  <footer>
+    <img src="images/logo.png" alt="Prime Door Logo">
+    <p>Prime Door © 2026. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
